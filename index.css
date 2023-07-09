@@ -15,7 +15,31 @@ body{
     background-color: #e0e0e0;
     text-align: center;
 }
-
+ .box {
+    margin-top: 0%;
+    background-color: rgb(179, 199, 199);
+    width: 10%;
+    height: 100px ;
+    border-radius: 20px ;
+    padding-top: 1%;
+ }
+ .X {
+     text-decoration: none;
+     margin-top: 10 px;
+     font-size: 2em;
+     margin-right: 40px;
+     background-color: rgb(153, 223, 223);
+     height: 60px;
+     border-radius: 5px;
+    }
+    .O{
+        text-decoration: none;
+       margin-top: 10 px;
+       font-size: 2em;
+       background-color: rgb(153, 223, 223);
+       height: 60px;
+       border-radius: 5px;
+    }
 .board{
     position: relative;
     width: 350px;
