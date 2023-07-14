@@ -15,7 +15,35 @@ body{
     background-color: #e0e0e0;
     text-align: center;
 }
+ .box {
+    box-sizing: border-box;
 
+    margin-top: 0%;
+    background-color: rgb(179, 199, 199);
+    width: 20%;
+    height: 150px ;
+    border-radius: 20px ;
+    padding-top: 1%;
+ }
+ .X {
+     text-decoration: none;
+     margin-top: 10 px;
+     font-size: 2em;
+     margin-right: 40px;
+     background-color: rgb(153, 223, 223);
+     height: 40px;
+     border-radius: 5px;
+     cursor:pointer ;
+    }
+    .O{
+        text-decoration: none;
+       margin-top: 10 px;
+       font-size: 2em;
+       background-color: rgb(153, 223, 223);
+       height: 40px;
+       border-radius: 5px;
+       cursor:pointer ;
+    }
 .board{
     position: relative;
     width: 350px;
