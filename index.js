@@ -26,8 +26,8 @@ function getComputerChoice(playerDataKey){
     return cells[randomNumber];
 }
 
-function setChoices(){
-    playerChoice = prompt('choose X or O:');
+function setChoices(playerChoice){
+    //  playerChoice = prompt('choose X or O:');
     if(playerChoice === 'x'){
         computerChoice = 'o'
     }else if(playerChoice === 'o'){
